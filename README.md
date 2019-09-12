@@ -141,7 +141,7 @@ Taken from [the official hello world project](https://github.com/alexa/skill-sam
 2. Simulate verbal interaction with your skill through the command line (this might take a few moments) using the following example:
 
 	```bash
-	 $ ask simulate -l en-US -t "open greeter"
+	 $ ask simulate -l en-US -t "open hello world"
 
 	 ✓ Simulation created for simulation id: 4a7a9ed8-94b2-40c0-b3bd-fb63d9887fa7
 	◡ Waiting for simulation response{

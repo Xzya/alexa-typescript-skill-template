@@ -80,13 +80,13 @@ module.exports = {
 
     const invocations = {
       [Environments.Local]: {
-        [Locales.enUS]: "greeter local",
+        [Locales.enUS]: "hello world local",
       },
       [Environments.Dev]: {
-        [Locales.enUS]: "greeter development",
+        [Locales.enUS]: "hello world development",
       },
       [Environments.Prod]: {
-        [Locales.enUS]: "greeter",
+        [Locales.enUS]: "hello world",
       },
     };
 

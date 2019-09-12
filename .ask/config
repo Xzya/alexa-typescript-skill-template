@@ -8,7 +8,7 @@
           "apis": {
             "custom": {
               "endpoint": {
-                "uri": "ask-custom-alexa-typescript-default"
+                "uri": "alexa-typescript-skill-template-default"
               }
             }
           }

@@ -5,9 +5,9 @@
         "en-US": {
           "summary": "Sample Short Description",
           "examplePhrases": [
-            "Alexa open greeter",
-            "Alexa tell greeter hello",
-            "Alexa ask greeter to say hello"
+            "Alexa open hello world",
+            "Alexa tell hello world hello",
+            "Alexa ask hello world to say hello"
           ],
           "name": "ask-hello",
           "description": "Sample Full Description"
