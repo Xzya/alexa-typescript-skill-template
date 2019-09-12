@@ -65,11 +65,30 @@ Contains an `http` server using `express`, which you can use with `ngrok` or `se
 
 ## Installation
 
-- Install the dependencies
+1. **Make sure** you are running the latest version of the CLI
 
-```bash
-$ npm install
-```
+	```bash
+	npm update -g ask-cli
+	```
+
+2. **Clone** the repository and navigate into the skill's root directory.
+
+	```bash
+	ask new --url https://github.com/Xzya/alexa-typescript-skill-template.git --skill-name hello-world
+	cd hello-world
+	```
+
+3. Install npm dependencies
+
+	```bash
+	npm install
+	```
+
+4. To start the skill locally, run the following
+
+	```bash
+	npm start
+	```
 
 ## Deployment
 
