@@ -9,8 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "ask-sdk-core": "2.6.0",
-    "ask-sdk-model": "1.18.0",
+    "ask-sdk-core": "2.7.0",
+    "ask-sdk-model": "1.19.0",
     "i18next": "17.0.6",
     "i18next-sprintf-postprocessor": "0.2.2"
   },
@@ -22,8 +22,8 @@
     "gulp": "4.0.2",
     "gulp-typescript": "5.0.1",
     "ts-node": "5.0.1",
-    "typescript": "3.5.2",
-    "nodemon": "1.19.1",
-    "tslint": "5.18.0"
+    "typescript": "3.6.3",
+    "nodemon": "1.19.2",
+    "tslint": "5.20.0"
   }
 }
