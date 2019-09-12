@@ -180,3 +180,12 @@ Taken from [the official hello world project](https://github.com/alexa/skill-sam
 	```bash
 	$ npm run deploy
 	```
+
+## Updating the dependencies
+
+Note that there are two `package.json` files:
+
+- `./package.json`, used when running the skill locally. This contains the normal dependencies, as well as some development dependencies and extra scripts
+- `./lambda/custom/package.json`, this is used only for production and it just contains the normal dependencies
+
+If you need to update the normal dependencies (e.g. `ask-sdk-model`), make sure to update it in both `package.json`, otherwise the production build will miss those changes.
