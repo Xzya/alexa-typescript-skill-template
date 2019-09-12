@@ -1,5 +1,5 @@
 import { Strings, LocaleTypes } from "./constants";
-import { Resource } from "../interfaces";
+import { Resource } from "../typings";
 
 interface IStrings {
   [Strings.WELCOME_MSG]: string;

@@ -1,5 +1,5 @@
 import { RequestInterceptor } from "ask-sdk-core";
-import { RequestAttributes } from "../interfaces";
+import { RequestAttributes } from "../typings";
 import { RequestTypes } from "../lib/constants";
 import { GetSlotValues } from "../lib/helpers";
 

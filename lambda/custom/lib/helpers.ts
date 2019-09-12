@@ -1,6 +1,6 @@
 import { HandlerInput } from "ask-sdk-core";
 import { IntentRequest, services } from "ask-sdk-model";
-import { RequestAttributes, Slots, SlotValues, SessionAttributes } from "../interfaces";
+import { RequestAttributes, Slots, SlotValues, SessionAttributes } from "../typings";
 import { RequestTypes, ErrorTypes } from "./constants";
 
 /**
