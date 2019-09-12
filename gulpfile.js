@@ -1,20 +1,13 @@
-var gulp = require("gulp");
-var ts = require("gulp-typescript");
-var tsProject = ts.createProject("tsconfig.json");
+"use strict";
 
-var OUT_DIR = "dist";
-var IN_DIR = "lambda";
+const gulp = require("gulp");
+const gulp_base = require("./gulpfile-base");
 
-// compile typescript
-gulp.task("compile", function () {
-  return tsProject.src()
-    .pipe(tsProject())
-    .js.pipe(gulp.dest(OUT_DIR));
-});
+gulp.task("tsc", gulp_base.tsc);
 
-// copy json files (e.g. localization json)
-gulp.task("json", function () {
-  return gulp.src(IN_DIR + "/**/*.json").pipe(gulp.dest(OUT_DIR));
-});
+gulp.task("clean", gulp_base.clean);
 
-gulp.task("default", gulp.parallel(["compile", "json"]));
+gulp.task("copyFiles", gulp_base.copyFiles);
+
+gulp.task("default", gulp.series("clean", gulp.parallel(["tsc", "copyFiles"])));
+gulp.task("release", gulp.series("default"));
