@@ -9,5 +9,7 @@ gulp.task("clean", gulp_base.clean);
 
 gulp.task("copyFiles", gulp_base.copyFiles);
 
+gulp.task("models", gulp_base.models);
+
 gulp.task("default", gulp.series("clean", gulp.parallel(["tsc", "copyFiles"])));
 gulp.task("release", gulp.series("default"));
